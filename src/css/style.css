@@ -1,0 +1,67 @@
+/* libre-franklin-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/libre-franklin-v14-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-franklin-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/libre-franklin-v14-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-franklin-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/libre-franklin-v14-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-franklin-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/libre-franklin-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* libre-franklin-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/libre-franklin-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --primary-ff: "Libre Franklin";
+  --color-primary: hsl(223, 87%, 63%);
+  --color-neutral: hsl(0, 100%, 100%);
+  --color-dark: hsl(209, 33%, 12%);
+  --color-error: hsl(354, 100%, 66%);
+  --color-border: hsl(223, 100%, 88%);
+  --color-text: hsl(0, 0%, 59%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-ff);
+}
